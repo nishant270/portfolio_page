@@ -1,0 +1,32 @@
+body{
+    background-color: #fefae0;
+    
+}
+
+.bigbox, .Bigbox{
+    margin: auto;
+    width: 70%;
+    background: transparent;
+    outline: 0;
+    padding: 0;
+    color:;
+    font-style: normal;
+    font-family: 'Source Code Pro', monospace;
+    letter-spacing: 15px;
+    font-size: 50px;
+    margin-top: 100px;
+    text-shadow: rgba(87, 70, 2, 0.762) 1px 0 10px;
+    background-color: #cad2c57e;
+    text-align: center;
+    /* box-shadow:0.5em 0.5em ; */
+
+}
+.smallbox{
+    margin: auto;
+    margin-top: 70px;
+    position: relative;
+    text-align: center;
+    width: 60%;
+    color: ;
+    font-size: 30px;
+}

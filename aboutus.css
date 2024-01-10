@@ -1,0 +1,200 @@
+body {
+    background-color: #fefae0;
+    margin: 0;
+
+    overflow-x: hidden;
+}
+
+.navigationbar {
+    background-color: #c08c7569;
+    height: 10vh;
+    width: 100%;
+    /* border: 2px solid; */
+    /* display: flex; */
+
+    display: flex;
+    justify-content: space-between;
+}
+
+.logobox {
+    display: inline-block;
+
+    width: 25%;
+    height: 100%;
+    border: 1px solid;
+
+    /* top: 5rem;*/
+
+}
+
+
+.buttons {
+    display: flex;
+
+    /* border:1px solid; */
+
+    width: 35%;
+    height: 100%;
+    
+}
+
+.Explorebutton,
+.aboutbutton {
+    display: flex;
+    flex-direction: column;
+    /* flex: auto; */
+    /* border: 1px solid #f00; */
+    width: 50%;
+    height: 100%;
+    align-content: center;
+    align-items: center;
+
+}
+
+/* .aboutbutton{
+    display:flex;
+    border: 1px solid #000;
+    width: 50%;
+    height: 100%;
+    /* position: relative;
+    left: 50%; */
+/* align-content: center;
+
+} */
+
+.bar {
+    margin: 15px;
+    width: 90%;
+    background-color: black;
+    height: 2%;
+
+}
+
+.writting {}
+
+.mainwritting {
+    display: inline-block;
+    height: 80vh;
+    width: 100vh;
+    /* border: 2px solid; */
+    position: relative;
+    /* left: 21vh;
+    top: 14vh; */
+    background-color: #6b705cc2;
+}
+
+.photograph, .pbelow {
+    display: inline-block;
+    height: 38vh;
+    width: 90vh;
+    /* border: 2px solid; */
+    position: relative;
+    left: 0vh;
+    top: -17vh;
+    transition: all 0.5s;
+    opacity: 0.5;
+}
+
+.photograph1 {
+    display: inline-block;
+    height: 59vh;
+    width: 85vh;
+    /* border: 2px solid; */
+    position: relative;
+    left: 15vh;
+    top: 16vh;
+    background-image: url("https://static.wixstatic.com/media/9246f9_b61c8e4d641f41dfac6528b88761c13a~mv2_d_1628_1632_s_2.png/v1/fill/w_655,h_578,al_c,q_90,usm_0.66_1.00_0.01,enc_auto/9246f9_b61c8e4d641f41dfac6528b88761c13a~mv2_d_1628_1632_s_2.png");
+}
+
+button {
+    background-color: #c08b7500;
+
+    border: none;
+    padding: 1em 2em;
+    transition: all 0.5s;
+            }
+
+button:hover{
+    color:white;
+    box-shadow: 0 0.5em 0.5em -0.4em #c08b75bc;
+    transform: translateY(-0.25em);
+    cursor: pointer;
+}
+
+
+
+p{
+    display: inline-block;
+}
+
+
+
+
+
+.photograph:hover{
+    color:black;
+    box-shadow: 0 0.5em 0.5em -0.4em #c08b75bc;
+    transform: translateY(-0.25em);
+    cursor: pointer;
+    opacity: 1;
+}
+/* }
+.photograph:active{
+    content: 'CONTACT US';
+} */
+
+/* .pbelow{
+    background-image: url("logo.png") ;
+    background-size: cover;
+    transition: opacity 0.5s ;
+}
+.pbelow:hover{
+    opacity: 0;
+} */
+
+
+.below,.upper{
+    display: inline-block;
+    height: 38vh;
+    width: 90vh;
+    
+    position: relative;
+    /* left: 0vh;
+    top: -17vh; */
+    
+}
+
+.below{
+    
+    /* background-color: blue; */
+}
+
+.upper:hover{
+    opacity: 0;
+    
+}
+
+
+.leavespace{
+    height: 50px;
+    
+}
+
+.imagebottomright{
+    display: inline-block;
+    width: 150px;
+    height: 150px;
+    position: fixed;
+    bottom: 2%;
+    right:0%;
+    background:url("https://static.wixstatic.com/media/5c5f13_139a54e9d581468298ef720541739e8a~mv2.png/v1/fill/w_186,h_323,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/5c5f13_139a54e9d581468298ef720541739e8a~mv2.png") ;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.imagebottomright:hover{
+    opacity: 0.5;
+    cursor: pointer;
+}
+
+
